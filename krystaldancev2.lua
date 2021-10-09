@@ -896,7 +896,7 @@ end
 
 OrgnC0 = Neck.C0
 local movelimbs = coroutine.wrap(function()
-while RunSrv.RenderStepped:wait() do
+while RenderStepped:Wait() do
 TrsoLV = Torso.CFrame.lookVector
 Dist = nil
 Diff = nil

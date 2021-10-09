@@ -9,13 +9,12 @@ spawn (function()
 player = Player
 chara = player.Character
 debby = game.Debris
-Mouse = player:GetMouse()
 chara.Humanoid.WalkSpeed = 0
 atkd = false
 berserkmode = false
 targetted = nil
 colorss = {"Deep orange","New Yeller","Bright yellow","Neon orange"}
-rs = game:GetService("RunService").RenderStepped
+rs = RenderStepped
 overcharge = 0
 attacking = false
 
